@@ -1,0 +1,8 @@
+# Pre-launch setting: block indexing while [TODO] placeholders remain.
+# When launching live (after completing T04, T05, T06, T09, T10, T11, T19):
+# 1. Replace Disallow: / with Allow: /
+# 2. Add Sitemap: https://<your-domain>/sitemap.xml
+# 3. Remove <meta name="robots" content="noindex"> and .draft-bar from all HTML files.
+
+User-agent: *
+Disallow: /
