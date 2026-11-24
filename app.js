@@ -222,7 +222,7 @@
       estNights.value = String(nights);
 
       const roomSubtotal = rate * nights;
-      const keyDeposit = 300;
+      const keyDeposit = 200;
       estNightsLabel.textContent = String(nights);
       estRoomCost.textContent = formatBaht(roomSubtotal);
       estTotal.textContent = formatBaht(roomSubtotal + keyDeposit);
